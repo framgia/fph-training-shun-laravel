@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HomesController@index');
+Route::get('/users', 'UsersController@index');
